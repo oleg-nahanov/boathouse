@@ -1,0 +1,30 @@
+baseurl: ""
+name: "BOATHOUSE 3D"
+viewer: "Viewer"
+description: "Надувные лодки ПВХ, байдарки и катамараны BOATHOUSE в 3D"
+assets_path: ""
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+  startings: []
+
+kramdown:
+  input: GFM
+
+sass:
+  style: :compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - node_modules
+  - scenes
+  - package.json
+  - package-lock.json
+  - gulpfile.js

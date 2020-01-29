@@ -1,0 +1,18 @@
+[
+    {
+        "model": "seafisher480",
+        "name": "SEA FISHER 480",
+        "title": "Катамаран ПВХ SEA FISHER 480",
+        "description": "Катамаран пвх для рыбалки Sea Fisher 480",
+        "sort": "1",
+        "icon": "data/seafisher/480/seafisher480-1.jpg"
+    },
+    {
+        "model": "seafisher480_fishing",
+        "name": "SEA FISHER 480 Fishing",
+        "title": "Катамаран ПВХ SEA FISHER 480",
+        "description": "Катамаран пвх для рыбалки Sea Fisher 480 – идеально подходящий для двух настоящих рыбаков.",
+        "sort": "1",
+        "icon": "data/seafisher/480/seafisher480-2.jpg"
+    }
+]

@@ -1,0 +1,14 @@
+scenes
+_site
+_config_local.yml
+.DS_Store
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
+package-lock.json
+gulpfile.js

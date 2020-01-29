@@ -1,0 +1,64 @@
+*
+	margin: 0
+	padding: 0
+
+html
+	height: 100%
+
+body
+	min-height: 100%
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	background: linear-gradient(#4096ee 0%, #819895 67%, #5d6d6a 100%)
+	margin: 0
+	padding: 0
+	overflow: hidden
+	-moz-user-select: none
+	-khtml-user-select: none
+	-webkit-user-select: none
+	-o-user-select: none
+
+#info
+	color: #b6b6b6
+	width: 100%
+	z-index: 100
+	display: block
+	position: absolute
+	top: 0
+	left: 0
+	b
+		position: absolute
+		top: 4px
+		left: 50%
+		margin-left: -50px
+		width: 100px
+		text-align: left
+		font-size: 14px
+		font-weight: 400
+		display: block
+		white-space: nowrap
+		&:before
+			content: 'LOADING'
+		&:after
+			display: inline-block
+			animation: dotty steps(1,end) 1s infinite
+			content: ''
+	i
+		display: block
+		text-align: center
+		white-space: nowrap
+		font-size: 14px
+		font-style: normal
+		margin-top: 40px
+
+@keyframes dotty
+	0%
+		content: ''
+	25%
+		content: '.'
+	50%
+		content: '..'
+	75%
+		content: '...'
+	100%
+		content: ''
+
