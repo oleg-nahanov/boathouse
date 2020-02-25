@@ -40,7 +40,9 @@ layout: default
 				<div class="mod-nav" data-bind="template: {name: 'modnav'}"></div>
 				<div class="mod3d" data-bind="template: {name: 'mod3d'}"></div>
 			</div>
+{% comment %}
 			<div class="btn onw3d_btn" data-model="stream300">STREAM 300 <sup style="color:#999">человек на борту</sup></div>
+{% endcomment %}
 {% comment %}
 			<ul class="clearfix first">
 				<li><a href="" title="">3D Models</a></li>
