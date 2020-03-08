@@ -84,14 +84,15 @@ layout: default
 <template id="mod3d">
 <div class="mod-cont">
     <div class="mod-info">
-        <span>Комплектация: <b class="mod-name" data-bind="text: modName"> </b> <i class="mod-price" data-bind="text: '$' + parseInt(modPrice()), visible: modPrice() > 0"></i></span> 
+        <span>Комплектация: <b class="mod-name" data-bind="text: modName"> </b> <i class="mod-price duble" data-bind="text: '$' + parseInt(modPrice()), visible: modPrice() > 0"></i></span> 
         <span class="more" data-bind="html: moreBtn, click: detailsMode, visible: modName() != baseName"></span>
     </div>
     <div class="mod-details">
         <ol data-bind="foreach: goodsList, visible: modName() != baseName">
             <li><span data-bind="text: name"></span> <span class="good-price" data-bind="text: '$' + parseInt(price)"></span></li>
         </ol>
-        <p class="mod-info" data-bind="visible: modName() != baseName">
+        <p class="mod-info" style="padding-left:0" data-bind="visible: modName() != baseName">
+			<span style="margin-right:20px" data-bind="text: modelTitle"></span>
             <span>Стоимость: <i class="mod-price" data-bind="text: '$' + parseInt(modPrice())"></i></span>
         </p>
     </div>
