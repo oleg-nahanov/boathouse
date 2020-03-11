@@ -10,7 +10,18 @@ layout: default
     <meta name="theme-color" content="#1a1a1a">
     <link rel="icon" href="/assets/icons/favicon.ico">
 	<link rel="stylesheet" href="/assets/css/local/style.css">
-    <style type="text/css">h1{color: #ccc; max-width: 600px; position: relative; margin: 20px auto;}.onw3d_btn{color: #eee; cursor: pointer; border:1px solid #999; padding:5px 20px; font-size: 18px; border-radius: 18px; margin-bottom:20px; display: inline-block; margin:10px; }.onw3d_btn.active{background: #156498;}</style>
+	<style type="text/css">h1{color: #ccc; font-size:24px; max-width: 600px; position: relative; margin: 20px auto;}.onw3d_btn{color: #eee; cursor: pointer; border:1px solid #999; padding:5px 20px; font-size: 18px; border-radius: 18px; margin-bottom:20px; display: inline-block; margin:10px; }.onw3d_btn.active{background: #156498;}
+	@media only screen and (max-width: 678px) {
+		h1{
+			font-size:18px; 
+			max-width: 600px;
+			margin: 0 auto;
+		}
+		.frame-container {
+			margin: 10px auto 20px auto!important;
+		}
+	}
+	</style>
 {% comment %}<!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.json"> -->
 {% endcomment %}
