@@ -44,6 +44,7 @@ layout: default
 				<div class="btn onw3d_btn" data-model="seafisher410">SEAFISHER 410</div> 
 				<div class="btn onw3d_btn active" data-model="seafisher480">SEAFISHER 480</div>
 				<div class="btn onw3d_btn" data-model="seafisher550">SEAFISHER 550</div>
+				<div class="btn onw3d_btn" data-model="seafisher610">SEAFISHER 610</div>
 			</div>
 {% comment %}
 			<div class="btn onw3d_btn" data-model="stream300">STREAM 300 <sup style="color:#999">человек на борту</sup></div>
@@ -51,11 +52,6 @@ layout: default
 {% comment %}
 			<ul class="clearfix first">
 				<li><a href="" title="">3D Models</a></li>
-				<li><a href="" title="">Тест кнопка</a></li>
-				<li><a href="" title="">Воат АШЫРУК</a></li>
-				<li><a href="" title="">лодка FISHER</a></li>
-				<li><a href="" title="">3D TRAVEL</a></li>
-				<li><a href="" title="">БАМБАРБЕА</a></li>
 			</ul>
 {% endcomment %}
 {% comment %}
