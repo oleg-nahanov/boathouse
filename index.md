@@ -43,6 +43,7 @@ layout: default
 			<div class="models-list">
 				<div class="btn onw3d_btn" data-model="seafisher410">SEAFISHER 410</div> 
 				<div class="btn onw3d_btn active" data-model="seafisher480">SEAFISHER 480</div>
+				<div class="btn onw3d_btn" data-model="seafisher550">SEAFISHER 550</div>
 			</div>
 {% comment %}
 			<div class="btn onw3d_btn" data-model="stream300">STREAM 300 <sup style="color:#999">человек на борту</sup></div>
