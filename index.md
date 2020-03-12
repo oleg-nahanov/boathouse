@@ -10,23 +10,7 @@ layout: default
     <meta name="theme-color" content="#1a1a1a">
     <link rel="icon" href="/assets/icons/favicon.ico">
 	<link rel="stylesheet" href="/assets/css/local/style.css">
-	<style>h1{color: #ccc; font-size:24px; max-width: 600px; position: relative; margin: 20px auto;}.onw3d_btn{color: #eee; cursor: pointer; border:1px solid #999; padding:5px 20px; font-size: 18px; border-radius: 18px; margin-bottom:20px; display: inline-block; margin:10px; }.onw3d_btn.active{background: #156498;}
-	@media only screen and (max-width: 678px) {
-		h1 {
-			font-size: 18px; 
-			max-width: 600px;
-			margin: 0 auto;
-		}
-		.frame-container {
-			margin: 10px auto 20px auto!important;
-		}
-	}
-	@media only screen and (max-width: 500px) {
-		h1 {
-			font-size: 16px; 
-		}
-	}
-	</style>
+	<style></style>
 {% comment %}<!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.json"> -->
 {% endcomment %}
@@ -52,19 +36,16 @@ layout: default
 		<div class="popular-searches clearfix">
 		    <h1 data-bind="text: modelTitle"></h1>
 			<div class="frame-container">
-				<div class="photo-box" data-model="seafisher480"></div>
+				<div class="photo-box" data-model="seafisher550"></div>
 				<div class="mod-nav" data-bind="template: {name: 'modnav'}"></div>
 				<div class="mod3d" data-bind="template: {name: 'mod3d'}"></div>
 			</div>
 			<div class="models-list">
 				<div class="btn onw3d_btn" data-model="seafisher410">SEAFISHER 410</div> 
-				<div class="btn onw3d_btn active" data-model="seafisher480">SEAFISHER 480</div>
-				<div class="btn onw3d_btn" data-model="seafisher550">SEAFISHER 550</div>
+				<div class="btn onw3d_btn" data-model="seafisher480">SEAFISHER 480</div>
+				<div class="btn onw3d_btn active" data-model="seafisher550">SEAFISHER 550</div>
 				<div class="btn onw3d_btn" data-model="seafisher610">SEAFISHER 610</div>
 			</div>
-{% comment %}
-			<div class="btn onw3d_btn" data-model="stream300">STREAM 300 <sup style="color:#999">человек на борту</sup></div>
-{% endcomment %}
 {% comment %}
 			<ul class="clearfix first">
 				<li><a href="" title="">3D Models</a></li>
@@ -104,9 +85,11 @@ layout: default
         <ol data-bind="foreach: goodsList, visible: modName() != baseName">
             <li><span data-bind="text: name"></span> <span class="good-price" data-bind="text: '$' + parseInt(price)"></span></li>
         </ol>
-        <p class="mod-info" style="padding-left:0" data-bind="visible: modName() != baseName">
-			<span style="margin-right:20px" data-bind="text: modelTitle"></span>
-            <span>Стоимость: <i class="mod-price" data-bind="text: '$' + parseInt(modPrice())"></i></span>
+        <p class="mod-info" style="padding-left: 0" data-bind="visible: modName() != baseName">
+			<span class="mod-title" data-bind="text: modelTitle"></span>
+            <span>Стоимость: <i class="mod-price" data-bind="text: '$' + parseInt(modPrice())"></i>
+				<small class="mod-warn">* мотор в комплект не входит!</small>
+			</span>
         </p>
     </div>
 </div>
@@ -124,5 +107,8 @@ layout: default
     style="background-image: url(https://boathouse.ua/{{ model.icon }})"
     <!-- <script>{% include_relative assets/js/onw3d.js %}</script> -->
 {% endcomment %}
-    <script src="/assets/js/web/onw3d.js"></script>
+
+<script src="/assets/js/web/onw3d.js"></script>
+<script src="/assets/js/local/main.js"></script>
+
 </body>
