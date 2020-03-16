@@ -1,10 +1,11 @@
 baseurl: ""
-name: "BOATHOUSE 3D"
+name: "BOATHOUSE"
 viewer: "Viewer"
 description: "Надувные лодки ПВХ, байдарки и катамараны BOATHOUSE в 3D"
 assets_path: ""
 scripts: 
   - /assets/js/web/onw3d.js
+  - /assets/js/local/main.js
 
 compress_html:
   clippings: all

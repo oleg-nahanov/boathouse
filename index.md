@@ -15,7 +15,14 @@ layout: default
 	<div class="clearfix header">
 		<div class="main-container">
 			<div class="website clearfix">
-				<a href="/"><img src="assets/icons/logo.png" alt="{{ site.name }}"> {{ site.name }}</a>
+				<a href="/"> 
+					<span class="logo-wrap">
+						<span class="l-in in1"></span>
+						<span class="l-in in2"></span>
+						<span class="l-in in3"></span>
+					</span>
+					{{ site.name }}
+				</a>
 			</div>
 			<div class="logo">
 				<div class="search-form clearfix">
@@ -43,11 +50,21 @@ layout: default
 				<div class="mod-nav" data-bind="template: {name: 'modnav'}"></div>
 				<div class="mod3d" data-bind="template: {name: 'mod3d'}"></div>
 			</div>
-			<div class="models-list">
-			{% for model in site.data.demo %}
-				<div class="btn onw3d_btn{{ model.active }}" data-model="{{ model.model }}">{{ model.name }}</div>
-			{% endfor %}
-			</div>			
+			<!-- <div class="models-list">
+			</div> -->
+		<!--  -->
+		<div class="slider">
+			<div class="slider__items"><div class="slider__wrapper">
+				{% for model in site.data.demo %}
+				<div class="slider__item">
+					<div class="btn onw3d_btn{{ model.active }}" data-model="{{ model.model }}">{{ model.name }}</div>
+				</div>
+				{% endfor %}
+			</div></div>
+			<a class="slider__control slider__control_left" href="#" role="button"></a>
+			<a class="slider__control slider__control_right" href="#" role="button"></a>
+		</div>
+		<!--  -->
 		</div>
 		<ul class="privacy clearfix">
 			<li><a href="https://boathouse.ua" target="_blank">&copy; boathouse.ua</a></li>
@@ -86,7 +103,6 @@ layout: default
 	{% for script in site.scripts %}
 		<script src="{{ script }}"></script>
 	{% endfor %}
-
 </body>
 {% comment %}
 	<ul class="clearfix first">
