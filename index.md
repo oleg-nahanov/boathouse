@@ -57,7 +57,7 @@ layout: default
 			<div class="slider__items"><div class="slider__wrapper">
 				{% for model in site.data.demo %}
 				<div class="slider__item">
-					<div class="btn onw3d_btn{{ model.active }}" data-model="{{ model.model }}">{{ model.name }}</div>
+					<div data-index="{{ forloop.index }}" class="btn onw3d_btn{{ model.active }}" data-model="{{ model.model }}">{{ model.name }}</div>
 				</div>
 				{% endfor %}
 			</div></div>
