@@ -21,6 +21,12 @@
         "model": "seafisher610",
         "name": "SEA FISHER 610",
         "sort": "4",
+        "active": ""
+    },
+    {
+        "model": "seafisher611",
+        "name": "SEA FISHER 611",
+        "sort": "5",
         "active": " active"
     }
 ]
