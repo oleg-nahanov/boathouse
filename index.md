@@ -25,19 +25,23 @@ layout: default
 				</a>
 			</div>
 			<div class="logo">
-				<div class="search-form clearfix">
-					<form id="searchform1">                    
-						<input name="s" type="text" class="srchTxt">
-						<input type="submit" class="srchBtn" value="">
-					</form>
+				<div class="search-form clearfix"> 
+					<input id="category" name="category" type="text" class="srchTxt" placeholder="select category">
+					<!-- <input id="model" name="model" type="text" class="srchTxt"> -->
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Set active model -->
-	{% for model in site.data.demo %}
-		{% if model.active != '' %}
-			{% assign active_model = model.model %}
+	<!-- Set data -->
+	{% for category in site.data.demo %}
+		{% if category.active != '' %}
+			{% assign active_category = category %}
+			{% for model in active_category.models %}
+				{% if model.active != '' %}
+					{% assign active_model = model %}
+					{% break %}
+				{% endif %}
+			{% endfor %}
 			{% break %}
 		{% endif %}
 	{% endfor %}
@@ -46,25 +50,23 @@ layout: default
 		<div class="popular-searches clearfix">
 		    <h1 data-bind="text: modelTitle">{{ site.name }}</h1>
 			<div class="frame-container">
-				<div class="photo-box" data-model="{{ active_model }}"></div>
+				<div class="photo-box" data-model="{{ active_model.model }}"></div>
 				<div class="mod-nav" data-bind="template: {name: 'modnav'}"></div>
 				<div class="mod3d" data-bind="template: {name: 'mod3d'}"></div>
 			</div>
-			<!-- <div class="models-list">
-			</div> -->
-		<!--  -->
-		<div class="slider">
-			<div class="slider__items"><div class="slider__wrapper">
-				{% for model in site.data.demo %}
-				<div class="slider__item">
-					<div data-index="{{ forloop.index }}" class="btn onw3d_btn{{ model.active }}" data-model="{{ model.model }}">{{ model.name }}</div>
-				</div>
-				{% endfor %}
-			</div></div>
-			<a class="slider__control slider__control_left" href="#" role="button"></a>
-			<a class="slider__control slider__control_right" href="#" role="button"></a>
-		</div>
-		<!--  -->
+			<!--  -->
+			<div class="slider">
+				<div class="slider__items"><div class="slider__wrapper">
+					{% for model in active_category.models %}
+					<div class="slider__item">
+						<div data-index="{{ forloop.index }}" class="btn onw3d_btn{% if model.active != '' %} active{% endif %}" data-model="{{ model.model }}">{{ model.name }}</div>
+					</div>
+					{% endfor %}
+				</div></div>
+				<a class="slider__control slider__control_left" href="#" role="button"></a>
+				<a class="slider__control slider__control_right" href="#" role="button"></a>
+			</div>
+			<!--  -->
 		</div>
 		<ul class="privacy clearfix">
 			<li><a href="https://boathouse.ua" target="_blank">&copy; boathouse.ua</a></li>
@@ -105,6 +107,9 @@ layout: default
 	{% endfor %}
 </body>
 {% comment %}
+	{{ active_category | json }}
+	{{ active_model | json }}
+	{% assign active_model = active_category.models | where: "active", " active" %}
 	<ul class="clearfix first">
 		<li><a href="" title="">3D Models</a></li>
 	</ul>

@@ -1,32 +1,61 @@
 [
     {
-        "model": "seafisher410",
-        "name": "SEA FISHER 410",
-        "sort": "1",
-        "active": ""
-    },
-    {
-        "model": "seafisher480",
-        "name": "SEA FISHER 480",
-        "sort": "2",
-        "active": ""
-    },
-    {
-        "model": "seafisher550",
-        "name": "SEA FISHER 550",
-        "sort": "3",
-        "active": ""
-    },
-    {
-        "model": "seafisher610",
-        "name": "SEA FISHER 610",
-        "sort": "4",
-        "active": ""
-    },
-    {
-        "model": "seafisher611",
-        "name": "SEA FISHER 611",
+        "id": "63",
+        "name": "Надувные катамараны FISHER",
+        "description": "Надувные катамараны FISHER до последнего рестайлинга назывались TRAVEL.",
+        "title": "BOATHOUSE ǀ FISHER Надувные катамараны для сплава, под мотор, под парус Ботхаус",
+        "h1": "Надувные катамараны FISHER",
+        "h2": "Надувные катамараны под мотор ",
         "sort": "5",
-        "active": " active"
-    }
+        "icon": "data/1/kateg-menu/fisher 1.png",
+        "active": "",
+        "models": [
+            {
+                "model": "fisher390",
+                "name": "FISHER 390",
+                "sort": "1",
+                "active": ""
+            }
+        ]
+    },
+    {
+        "id": "64",
+        "name": "Катамараны пвх SEA FISHER",
+        "description": "Катамараны ПВХ для морской рыбалки, сплавов и путешествий",
+        "sort": "6",
+        "icon": "data/1/kateg-menu/seafisher 1.png",
+        "active": "active",
+        "models": [
+            {
+                "model": "seafisher410",
+                "name": "SEA FISHER 410",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "model": "seafisher480",
+                "name": "SEA FISHER 480",
+                "sort": "2",
+                "active": ""
+            },
+            {
+                "model": "seafisher550",
+                "name": "SEA FISHER 550",
+                "sort": "3",
+                "active": ""
+            },
+            {
+                "model": "seafisher610",
+                "name": "SEA FISHER 610",
+                "sort": "4",
+                "active": ""
+            },
+            {
+                "model": "seafisher611",
+                "name": "SEA FISHER 611",
+                "sort": "5",
+                "active": "active"
+            }
+        ]
+    }   
 ]
