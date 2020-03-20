@@ -26,7 +26,7 @@ layout: default
 			</div>
 			<div class="logo">
 				<div class="search-form clearfix"> 
-					<input id="category" name="category" type="text" class="srchTxt" placeholder="select category">
+					<input id="category" name="category" type="text" class="srchTxt" placeholder="select a category..">
 					<!-- <input id="model" name="model" type="text" class="srchTxt"> -->
 				</div>
 			</div>
@@ -96,7 +96,7 @@ layout: default
 	<!--  -->
 	<template id="modnav">
 	<div class="mod-list" data-bind="foreach: modsList">
-		<div data-bind="class: $parent.isActive(), attr: {'data-name': name}">
+		<div role="tooltip" data-bind="class: $parent.isActive(), attr: {'data-name': name, 'aria-label': description}">
 			<b data-bind="text: name"></b>
 		</div>
 	</div>
