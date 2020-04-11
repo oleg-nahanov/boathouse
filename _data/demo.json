@@ -30,7 +30,7 @@
                 "model": "seafisher410",
                 "name": "SEA FISHER 410",
                 "sort": "1",
-                "active": ""
+                "active": "active"
             },
             {
                 "model": "seafisher480",
@@ -72,7 +72,7 @@
                 "model": "seafisher751",
                 "name": "SEA FISHER 751",
                 "sort": "7",
-                "active": "active"
+                "active": ""
             },
             {
                 "model": "seafisher800",
