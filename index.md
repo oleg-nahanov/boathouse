@@ -50,7 +50,7 @@ layout: default
 		<div class="popular-searches clearfix">
 		    <h1 data-bind="text: modelTitle">{{ site.name }}</h1>
 			<div class="frame-container">
-				<div class="photo-box" data-model="{{ active_model.model }}"></div>
+				<div class="photo-box" data-model="{{ active_model.model }}" data-category="{{ active_category.id }}"></div>
 				<div class="mod-nav" data-bind="template: {name: 'modnav'}"></div>
 				<div class="mod3d" data-bind="template: {name: 'mod3d'}"></div>
 			</div>

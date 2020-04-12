@@ -5,15 +5,72 @@
         "description": "Надувные катамараны FISHER до последнего рестайлинга назывались TRAVEL.",
         "title": "BOATHOUSE ǀ FISHER Надувные катамараны для сплава, под мотор, под парус Ботхаус",
         "h1": "Надувные катамараны FISHER",
-        "h2": "Надувные катамараны под мотор ",
+        "h2": "Надувные катамараны под мотор",
         "sort": "5",
         "icon": "data/1/kateg-menu/fisher 1.png",
         "active": "",
         "models": [
             {
+                "id": "80",
                 "model": "fisher390",
                 "name": "FISHER 390",
                 "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "81",
+                "model": "fisher460",
+                "name": "FISHER 460",
+                "sort": "2",
+                "active": ""
+            },
+            {
+                "id": "82",
+                "model": "fisher530",
+                "name": "FISHER 530",
+                "sort": "3",
+                "active": ""
+            },
+            {
+                "id": "84",
+                "model": "fisher590",
+                "name": "FISHER 590",
+                "sort": "4",
+                "active": ""
+            },
+            {
+                "id": "85",
+                "model": "fisher591",
+                "name": "FISHER 591",
+                "sort": "5",
+                "active": ""
+            },
+            {
+                "id": "86",
+                "model": "fisher660",
+                "name": "FISHER 660",
+                "sort": "6",
+                "active": ""
+            },
+            {
+                "id": "89",
+                "model": "fisher730",
+                "name": "FISHER 730",
+                "sort": "7",
+                "active": ""
+            },
+            {
+                "id": "136",
+                "model": "fisher731",
+                "name": "FISHER 731",
+                "sort": "8",
+                "active": ""
+            },
+            {
+                "id": "137",
+                "model": "fisher790",
+                "name": "FISHER 790",
+                "sort": "9",
                 "active": ""
             }
         ]
@@ -27,57 +84,66 @@
         "active": "active",
         "models": [
             {
+                "id": "65",
                 "model": "seafisher410",
                 "name": "SEA FISHER 410",
                 "sort": "1",
                 "active": "active"
             },
             {
+                "id": "66",
                 "model": "seafisher480",
                 "name": "SEA FISHER 480",
                 "sort": "2",
                 "active": ""
             },
             {
+                "id": "67",
                 "model": "seafisher550",
                 "name": "SEA FISHER 550",
                 "sort": "3",
                 "active": ""
             },
             {
+                "id": "68",
                 "model": "seafisher610",
                 "name": "SEA FISHER 610",
                 "sort": "4",
                 "active": ""
             },
             {
+                "id": "139",
                 "model": "seafisher611",
                 "name": "SEA FISHER 611",
                 "sort": "5",
                 "active": ""
             },
             {
+                "id": "69",
                 "model": "seafisher680",
                 "name": "SEA FISHER 680",
                 "sort": "6",
                 "active": ""
             },
             {
+                "id": "70",
                 "model": "seafisher750",
                 "name": "SEA FISHER 750",
                 "sort": "7",
                 "active": ""
             },
             {
+                "id": "144",
                 "model": "seafisher751",
                 "name": "SEA FISHER 751",
-                "sort": "7",
+                "sort": "8",
                 "active": ""
             },
             {
+                "id": "71",
                 "model": "seafisher800",
                 "name": "SEA FISHER 800",
-                "sort": "7",
+                "sort": "9",
                 "active": ""
             }
         ]
