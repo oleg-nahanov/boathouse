@@ -76,7 +76,7 @@ layout: default
 	</div>
 	<!-- Templates -->
 	<template id="mod3d">
-	<div class="mod-cont">
+	<div class="mod-cont" data-bind="visible: modsList().length > 0">
 		<div class="mod-info">
 			<span>Комплектация: <b class="mod-name" data-bind="text: modName"> </b> <i class="mod-price duble" data-bind="text: '$' + parseInt(modPrice()), visible: modPrice() > 0"></i></span> 
 			<span class="more" data-bind="html: moreBtn, click: detailsMode, visible: modName() != baseName"></span>
