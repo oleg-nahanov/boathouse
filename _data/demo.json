@@ -6,7 +6,7 @@
         "title": "FISHER",
         "sort": "5",
         "icon": "data/1/kateg-menu/fisher 1.png",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "80",
@@ -146,5 +146,23 @@
                 "active": ""
             }
         ]
-    }   
+    },
+    {
+        "id": "81",
+        "name": "Морские катамараны TRAVEL MAX",
+        "title": "TRAVEL MAX",
+        "description": "Морские надувные катамараны TRAVEL MAX для путешествий, рыбалки на море, в океане, коммерческого использования",
+        "sort": "7",
+        "icon": "",
+        "active": "active",
+        "models": [
+            {
+                "id": "302",
+                "model": "travelmax460",
+                "name": "TRAVEL MAX 460",
+                "sort": "1",
+                "active": "active"
+            }
+        ]
+    }  
 ]
