@@ -162,6 +162,20 @@
                 "name": "TRAVEL MAX 460",
                 "sort": "1",
                 "active": "active"
+            },
+            {
+                "id": "303",
+                "model": "travelmax530",
+                "name": "TRAVEL MAX 530",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "304",
+                "model": "travelmax590",
+                "name": "TRAVEL MAX 590",
+                "sort": "1",
+                "active": ""
             }
         ]
     }  

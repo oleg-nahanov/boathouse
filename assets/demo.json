@@ -80,7 +80,7 @@
         "description": "Катамараны ПВХ для морской рыбалки, сплавов и путешествий",
         "sort": "6",
         "icon": "data/1/kateg-menu/seafisher 1.png",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "65",
@@ -146,5 +146,37 @@
                 "active": ""
             }
         ]
-    }   
+    },
+    {
+        "id": "81",
+        "name": "Морские катамараны TRAVEL MAX",
+        "title": "TRAVEL MAX",
+        "description": "Морские надувные катамараны TRAVEL MAX для путешествий, рыбалки на море, в океане, коммерческого использования",
+        "sort": "7",
+        "icon": "",
+        "active": "active",
+        "models": [
+            {
+                "id": "302",
+                "model": "travelmax460",
+                "name": "TRAVEL MAX 460",
+                "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "303",
+                "model": "travelmax530",
+                "name": "TRAVEL MAX 530",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "304",
+                "model": "travelmax590",
+                "name": "TRAVEL MAX 590",
+                "sort": "1",
+                "active": ""
+            }
+        ]
+    }    
 ]
