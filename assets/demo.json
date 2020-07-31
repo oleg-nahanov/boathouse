@@ -182,12 +182,40 @@
                 "model": "travelmax660",
                 "name": "TRAVEL MAX 660",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             },
             {
                 "id": "307",
                 "model": "travelmax661",
                 "name": "TRAVEL MAX 661",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "308",
+                "model": "travelmax730",
+                "name": "TRAVEL MAX 730",
+                "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "309",
+                "model": "travelmax790",
+                "name": "TRAVEL MAX 790",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "310",
+                "model": "travelmax791",
+                "name": "TRAVEL MAX 791",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "311",
+                "model": "travelmax860",
+                "name": "TRAVEL MAX 860",
                 "sort": "1",
                 "active": ""
             }
