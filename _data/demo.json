@@ -196,14 +196,14 @@
                 "model": "travelmax730",
                 "name": "TRAVEL MAX 730",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             },
             {
                 "id": "309",
                 "model": "travelmax790",
                 "name": "TRAVEL MAX 790",
                 "sort": "1",
-                "active": ""
+                "active": "active"
             },
             {
                 "id": "310",
