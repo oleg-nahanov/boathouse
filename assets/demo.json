@@ -203,14 +203,14 @@
                 "model": "travelmax790",
                 "name": "TRAVEL MAX 790",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             },
             {
                 "id": "310",
                 "model": "travelmax791",
                 "name": "TRAVEL MAX 791",
                 "sort": "1",
-                "active": ""
+                "active": "active"
             },
             {
                 "id": "311",
