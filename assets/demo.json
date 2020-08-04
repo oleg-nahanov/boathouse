@@ -148,20 +148,94 @@
         ]
     },
     {
+        "id": "73",
+        "name": "Катамараны для сплава TRAVEL",
+        "title": "TRAVEL",
+        "description": "Катамараны TRAVEL — одни из самых больших надувных катамаранов, производимые компанией BOATHOUSE.",
+        "sort": "7",
+        "icon": "",
+        "active": "active",
+        "models": [
+            {
+                "id": "212",
+                "model": "travel430",
+                "name": "TRAVEL 430",
+                "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "213",
+                "model": "travel500",
+                "name": "TRAVEL 500",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "214",
+                "model": "travel570",
+                "name": "TRAVEL 570",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "216",
+                "model": "travel630",
+                "name": "TRAVEL 630",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "217",
+                "model": "travel631",
+                "name": "TRAVEL 631",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "218",
+                "model": "travel700",
+                "name": "TRAVEL 700",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "221",
+                "model": "travel770",
+                "name": "TRAVEL 770",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "224",
+                "model": "travel771",
+                "name": "TRAVEL 771",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "225",
+                "model": "travel830",
+                "name": "TRAVEL 830",
+                "sort": "1",
+                "active": ""
+            }
+        ]
+    },
+    {
         "id": "81",
         "name": "Морские катамараны TRAVEL MAX",
         "title": "TRAVEL MAX",
         "description": "Морские надувные катамараны TRAVEL MAX для путешествий, рыбалки на море, в океане, коммерческого использования",
-        "sort": "7",
+        "sort": "8",
         "icon": "",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "302",
                 "model": "travelmax460",
                 "name": "TRAVEL MAX 460",
                 "sort": "1",
-                "active": ""
+                "active": "active"
             },
             {
                 "id": "303",
@@ -217,7 +291,7 @@
                 "model": "travelmax860",
                 "name": "TRAVEL MAX 860",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             }
         ]
     }    
