@@ -154,7 +154,7 @@
         "description": "Катамараны TRAVEL — одни из самых больших надувных катамаранов, производимые компанией BOATHOUSE.",
         "sort": "7",
         "icon": "",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "212",
@@ -294,5 +294,86 @@
                 "active": ""
             }
         ]
-    }    
+    },
+    {
+        "id": "60",
+        "name": "Транцевые байдарки SPORT",
+        "title": "SPORT",
+        "description": "Транцевые байдарки SPORT были разработаны для рыбалки, подводной охоты и путешествий, в том числе повышенной сложности.",
+        "sort": "3",
+        "icon": "",
+        "active": "active",
+        "models": [
+            {
+                "id": "72",
+                "model": "sport310",
+                "name": "SPORT 310",
+                "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "73",
+                "model": "sport370",
+                "name": "SPORT 370",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "74",
+                "model": "sport435",
+                "name": "SPORT 435",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "75",
+                "model": "sport500",
+                "name": "SPORT 500",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "76",
+                "model": "sport560",
+                "name": "SPORT 560",
+                "sort": "1",
+                "active": ""
+            }, 
+            {
+                "id": "77",
+                "model": "sport625",
+                "name": "SPORT 625",
+                "sort": "1",
+                "active": ""
+            }, 
+            {
+                "id": "78",
+                "model": "sport685",
+                "name": "SPORT 685",
+                "sort": "1",
+                "active": ""
+            }, 
+            {
+                "id": "79",
+                "model": "sport686",
+                "name": "SPORT 686",
+                "sort": "1",
+                "active": ""
+            }, 
+            {
+                "id": "146",
+                "model": "sport561",
+                "name": "SPORT 561",
+                "sort": "1",
+                "active": ""
+            }, 
+            {
+                "id": "151",
+                "model": "sport750",
+                "name": "SPORT 750",
+                "sort": "1",
+                "active": ""
+            }
+        ]
+    }  
 ]
