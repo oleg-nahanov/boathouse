@@ -330,14 +330,14 @@
                 "model": "sport500",
                 "name": "SPORT 500",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             },
             {
                 "id": "76",
                 "model": "sport560",
                 "name": "SPORT 560",
                 "sort": "1",
-                "active": ""
+                "active": "active"
             }, 
             {
                 "id": "77",
