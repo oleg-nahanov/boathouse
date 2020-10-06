@@ -344,14 +344,14 @@
                 "model": "sport625",
                 "name": "SPORT 625",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             }, 
             {
                 "id": "78",
                 "model": "sport685",
                 "name": "SPORT 685",
                 "sort": "1",
-                "active": ""
+                "active": "active"
             }, 
             {
                 "id": "79",
