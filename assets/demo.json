@@ -358,7 +358,7 @@
                 "model": "sport686",
                 "name": "SPORT 686",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             }, 
             {
                 "id": "146",
@@ -372,7 +372,7 @@
                 "model": "sport750",
                 "name": "SPORT 750",
                 "sort": "1",
-                "active": ""
+                "active": "active"
             }
         ]
     }  
