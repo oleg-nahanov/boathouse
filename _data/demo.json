@@ -302,7 +302,7 @@
         "description": "Транцевые байдарки SPORT были разработаны для рыбалки, подводной охоты и путешествий, в том числе повышенной сложности.",
         "sort": "3",
         "icon": "",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "72",
@@ -371,6 +371,73 @@
                 "id": "151",
                 "model": "sport750",
                 "name": "SPORT 750",
+                "sort": "1",
+                "active": ""
+            }
+        ]
+    },
+    {
+        "id": "59",
+        "name": "Надувные байдарки STREAM",
+        "title": "STREAM",
+        "description": "Надувные байдарки STREAM по своей конструкции еще можно назвать каркасно-надувными.",
+        "sort": "3",
+        "icon": "",
+        "active": "active",
+        "models": [
+            {
+                "id": "50",
+                "model": "stream300",
+                "name": "STREAM 300",
+                "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "51",
+                "model": "stream360",
+                "name": "STREAM 360",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "52",
+                "model": "stream425",
+                "name": "STREAM 425",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "53",
+                "model": "stream485",
+                "name": "STREAM 485",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "54",
+                "model": "stream550",
+                "name": "STREAM 550",
+                "sort": "1",
+                "active": ""
+            }, 
+            {
+                "id": "55",
+                "model": "stream610",
+                "name": "STREAM 610",
+                "sort": "1",
+                "active": ""
+            }, 
+            {
+                "id": "57",
+                "model": "stream675",
+                "name": "STREAM 675",
+                "sort": "1",
+                "active": ""
+            }, 
+            {
+                "id": "132",
+                "model": "stream680",
+                "name": "STREAM 680",
                 "sort": "1",
                 "active": ""
             }
