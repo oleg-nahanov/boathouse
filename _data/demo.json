@@ -383,7 +383,7 @@
         "description": "Надувные байдарки STREAM по своей конструкции еще можно назвать каркасно-надувными.",
         "sort": "3",
         "icon": "",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "50",
@@ -442,5 +442,51 @@
                 "active": ""
             }
         ]
-    }  
+    },
+    {
+        "id": "81",
+        "name": "Коммерческие катамараны TRAVEL XXL",
+        "title": "TRAVEL XXL",
+        "description": "Катамараны TRAVEL XXL созданы на базе катамаранов TRAVEL MAX. Основное их назначение – использование в коммерческих целях для перевозки людей ..",
+        "sort": "3",
+        "icon": "",
+        "active": "active",
+        "models": [
+            {
+                "id": "504",
+                "model": "travelxxl590",
+                "name": "TRAVEL XXL 590",
+                "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "505",
+                "model": "travelxxl660",
+                "name": "TRAVEL XXL 660",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "506",
+                "model": "travelxxl730",
+                "name": "TRAVEL XXL 730",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "507",
+                "model": "travelxxl790",
+                "name": "TRAVEL XXL 790",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "508",
+                "model": "travelxxl860",
+                "name": "TRAVEL XXL 860",
+                "sort": "1",
+                "active": ""
+            }
+        ]
+    } 
 ]
