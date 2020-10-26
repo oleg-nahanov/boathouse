@@ -1,5 +1,6 @@
 ---
 layout: json
+permalink: /assets/data.json
 ---
 [
 {% for category in site.data.demo %}
