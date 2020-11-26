@@ -450,7 +450,7 @@
         "description": "Катамараны TRAVEL XXL созданы на базе катамаранов TRAVEL MAX. Основное их назначение – использование в коммерческих целях для перевозки людей ..",
         "sort": "3",
         "icon": "",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "504",
@@ -484,6 +484,52 @@
                 "id": "508",
                 "model": "travelxxl860",
                 "name": "TRAVEL XXL 860",
+                "sort": "1",
+                "active": ""
+            }
+        ]
+    },
+    {
+        "id": "75",
+        "name": "Мини катамараны SUPKAT, MINIKAT",
+        "title": "SUPKAT, MINIKAT",
+        "description": "Мини катамараны | SUP надувные катамараны для сплава, рыбалки",
+        "sort": "3",
+        "icon": "",
+        "active": "active",
+        "models": [
+            {
+                "id": "283",
+                "model": "supkat",
+                "name": "SUPKAT",
+                "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "565",
+                "model": "supkatxl",
+                "name": "SUPKAT XL",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "566",
+                "model": "minikat",
+                "name": "MINIKAT",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "567",
+                "model": "minikatxl",
+                "name": "MINIKAT XL",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "568",
+                "model": "minikatxxl",
+                "name": "MINIKAT XXL",
                 "sort": "1",
                 "active": ""
             }
