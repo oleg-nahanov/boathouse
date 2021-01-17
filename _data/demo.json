@@ -496,7 +496,7 @@
         "description": "Мини катамараны | SUP надувные катамараны для сплава, рыбалки",
         "sort": "3",
         "icon": "",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "283",
@@ -530,6 +530,80 @@
                 "id": "568",
                 "model": "minikatxxl",
                 "name": "MINIKAT XXL",
+                "sort": "1",
+                "active": ""
+            }
+        ]
+    },
+    {
+        "id": "61",
+        "name": "Легкие катамараны SMART FISHER",
+        "title": "SMART FISHER",
+        "description": "Легкие катамараны SMART FISHER – легкие компактные надувные катамараны, специально предназначенные для рыбалки и охоты ...",
+        "sort": "3",
+        "icon": "",
+        "active": "active",
+        "models": [
+            {
+                "id": "59",
+                "model": "smartfisher370",
+                "name": "SMART FISHER 370",
+                "sort": "1",
+                "active": "active"
+            },
+            {
+                "id": "60",
+                "model": "smartfisher440",
+                "name": "SMART FISHER 440",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "61",
+                "model": "smartfisher500",
+                "name": "SMART FISHER 500",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "62",
+                "model": "smartfisher570",
+                "name": "SMART FISHER 570",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "153",
+                "model": "smartfisher571",
+                "name": "SMART FISHER 571",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "154",
+                "model": "smartfisher640",
+                "name": "SMART FISHER 640",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "63",
+                "model": "smartfisher700",
+                "name": "SMART FISHER 700",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "159",
+                "model": "smartfisher701",
+                "name": "SMART FISHER 701",
+                "sort": "1",
+                "active": ""
+            },
+            {
+                "id": "160",
+                "model": "smartfisher770",
+                "name": "SMART FISHER 770",
                 "sort": "1",
                 "active": ""
             }
