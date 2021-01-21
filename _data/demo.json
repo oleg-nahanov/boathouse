@@ -563,7 +563,7 @@
                 "model": "smartfisher500",
                 "name": "SMART FISHER 500",
                 "sort": "1",
-                "active": ""
+                "active": "active"
             },
             {
                 "id": "62",
@@ -584,7 +584,7 @@
                 "model": "smartfisher640",
                 "name": "SMART FISHER 640",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             },
             {
                 "id": "63",
