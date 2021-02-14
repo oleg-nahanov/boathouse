@@ -69,7 +69,6 @@ layout: default
 			<!--  -->
 		</div>
 		<ul class="privacy clearfix">
-			<!-- <li><a href="/?model=demo.tjs" class="demo_btn2" data-model="demo">Demo3 <span style="font-weight:600;color:red">+18</span></a></li> -->
 			<li><a href="/?model=demo2" class="demo_btn2" data-model="demo">Demo2</a></li>
 			<li><a href="/?model=demo" class="demo_btn2" data-model="demo">Demo</a></li>
 			<li><a href="https://boathouse.ua" target="_blank">&copy; boathouse.ua</a></li>
