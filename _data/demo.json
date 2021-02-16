@@ -6,7 +6,7 @@
         "title": "FISHER",
         "sort": "5",
         "icon": "data/1/kateg-menu/fisher 1.png",
-        "active": "",
+        "active": "active",
         "models": [
             {
                 "id": "80",
@@ -302,7 +302,7 @@
         "description": "Транцевые байдарки SPORT были разработаны для рыбалки, подводной охоты и путешествий, в том числе повышенной сложности.",
         "sort": "3",
         "icon": "",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "72",
