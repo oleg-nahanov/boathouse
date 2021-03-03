@@ -13,7 +13,7 @@
                 "model": "fisher390",
                 "name": "FISHER 390",
                 "sort": "1",
-                "active": "active"
+                "active": ""
             },
             {
                 "id": "81",
@@ -62,7 +62,7 @@
                 "model": "fisher731",
                 "name": "FISHER 731",
                 "sort": "8",
-                "active": ""
+                "active": "active"
             },
             {
                 "id": "137",
