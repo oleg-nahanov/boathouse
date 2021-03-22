@@ -6,7 +6,7 @@
         "title": "FISHER",
         "sort": "5",
         "icon": "data/1/kateg-menu/fisher 1.png",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "80",
@@ -24,10 +24,10 @@
             },
             {
                 "id": "82",
-                "model": "fisher530",
+                "model": "demo22",
                 "name": "FISHER 530",
                 "sort": "3",
-                "active": ""
+                "active": "active"
             },
             {
                 "id": "84",
@@ -62,7 +62,7 @@
                 "model": "fisher731",
                 "name": "FISHER 731",
                 "sort": "8",
-                "active": "active"
+                "active": ""
             },
             {
                 "id": "137",
@@ -80,7 +80,7 @@
         "description": "Катамараны ПВХ для морской рыбалки, сплавов и путешествий",
         "sort": "6",
         "icon": "data/1/kateg-menu/seafisher 1.png",
-        "active": "",
+        "active": "active",
         "models": [
             {
                 "id": "65",
