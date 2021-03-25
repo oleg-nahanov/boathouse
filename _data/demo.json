@@ -80,7 +80,7 @@
         "description": "Катамараны ПВХ для морской рыбалки, сплавов и путешествий",
         "sort": "6",
         "icon": "data/1/kateg-menu/seafisher 1.png",
-        "active": "active",
+        "active": "",
         "models": [
             {
                 "id": "65",
@@ -542,7 +542,7 @@
         "description": "Легкие катамараны SMART FISHER – легкие компактные надувные катамараны, специально предназначенные для рыбалки и охоты ...",
         "sort": "3",
         "icon": "",
-        "active": "",
+        "active": "active",
         "models": [
             {
                 "id": "59",
