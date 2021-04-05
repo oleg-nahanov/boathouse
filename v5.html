@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boathouse 3D</title>
+</head>
+<body>
+    <div class="wrap">
+        <div style="text-align: right;">
+            <a class="knopka" href="#" data-bind="text: tmpBtn"></a>
+        </div>
+
+        <div class="photo-box"></div>
+
+        <div data-bind="html: tmpLorem"></div>
+    </div>
+
+    <script src="assets/js/local/knockout.js"></script>
+   
+    <script id="onw3d" src="assets/js/local/onw3d.min.js" data-options='{
+        "id": 82,
+        "model": "fisher530",
+        "category": 63,
+        "container": ".photo-box",
+        "button": ".knopka",
+        "view": false
+    }'></script>
+</body>
+</html>
