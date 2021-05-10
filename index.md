@@ -69,6 +69,8 @@ layout: default
 			<!--  -->
 		</div>
 		<ul class="privacy clearfix">
+			<li><a href="/?model=sport370_trimaran" class="demo_btn2" data-model="demo">sport370_trimaran</a></li>
+			<li><a href="/?model=sport435_trimaran" class="demo_btn2" data-model="demo">sport435_trimaran</a></li>
 			<li><a href="/?model=demop" class="demo_btn2" data-model="demo">Demo2</a></li>
 			<li><a href="/?model=demo" class="demo_btn2" data-model="demo">Demo</a></li>
 			<li><a href="https://boathouse.ua" target="_blank">&copy; boathouse.ua</a></li>
