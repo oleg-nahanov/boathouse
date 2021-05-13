@@ -80,6 +80,10 @@ layout: default
 			<li><a href="/?model=sport500_trimaran" class="demo_btn2" data-model="demo">sport500_trimaran</a></li>
 			<li><a href="/?model=sport560_trimaran" class="demo_btn2" data-model="demo">sport560_trimaran</a></li>
 			<li><a href="/?model=sport561_trimaran" class="demo_btn2" data-model="demo">sport561_trimaran</a></li>
+			<li><a href="/?model=sport625_trimaran" class="demo_btn2" data-model="demo">sport625_trimaran</a></li>
+			<li><a href="/?model=sport685_trimaran" class="demo_btn2" data-model="demo">sport685_trimaran</a></li>
+			<li><a href="/?model=sport686_trimaran" class="demo_btn2" data-model="demo">sport686_trimaran</a></li>
+			<li><a href="/?model=sport750_trimaran" class="demo_btn2" data-model="demo">sport750_trimaran</a></li>
 		</ul>
 	</div>
 	<!-- Templates -->
