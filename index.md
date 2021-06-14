@@ -96,6 +96,7 @@ layout: default
 			<li><a href="/?model=smartfisher571_trimaran" class="demo_btn2" data-model="demo">smartfisher571_trimaran</a></li>
 			<li><a href="/?model=smartfisher640_trimaran" class="demo_btn2" data-model="demo">smartfisher640_trimaran</a></li>
 			<li><a href="/?model=smartfisher700_trimaran" class="demo_btn2" data-model="demo">smartfisher700_trimaran</a></li>
+			<li><a href="/?model=smartfisher701_trimaran" class="demo_btn2" data-model="demo">smartfisher701_trimaran</a></li>
 		</ul>
 	</div>
 	<!-- Templates -->
