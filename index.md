@@ -102,6 +102,7 @@ layout: default
 		<hr>
 		<ul class="privacy clearfix" style="flex-wrap: wrap; margin: 10px 0 20px 0;">
 			<li><a href="/?model=fisher390_trimaran" class="demo_btn2" data-model="demo">fisher390_trimaran</a></li>
+			<li><a href="/?model=fisher460_trimaran" class="demo_btn2" data-model="demo">fisher460_trimaran</a></li>
 		</ul>
 	</div>
 	<!-- Templates -->
