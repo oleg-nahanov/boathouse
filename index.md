@@ -99,6 +99,10 @@ layout: default
 			<li><a href="/?model=smartfisher701_trimaran" class="demo_btn2" data-model="demo">smartfisher701_trimaran</a></li>
 			<li><a href="/?model=smartfisher770_trimaran" class="demo_btn2" data-model="demo">smartfisher770_trimaran</a></li>
 		</ul>
+		<hr>
+		<ul class="privacy clearfix" style="flex-wrap: wrap; margin: 10px 0 20px 0;">
+			<li><a href="/?model=fisher390_trimaran" class="demo_btn2" data-model="demo">fisher390_trimaran</a></li>
+		</ul>
 	</div>
 	<!-- Templates -->
 	<template id="mod3d">
