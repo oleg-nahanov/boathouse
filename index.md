@@ -107,6 +107,8 @@ layout: default
 			<li><a href="/?model=fisher590_trimaran" class="demo_btn2" data-model="demo">fisher590_trimaran</a></li>
 			<li><a href="/?model=fisher591_trimaran" class="demo_btn2" data-model="demo">fisher591_trimaran</a></li>
 			<li><a href="/?model=fisher660_trimaran" class="demo_btn2" data-model="demo">fisher660_trimaran</a></li>
+			<li><a href="/?model=fisher730_trimaran" class="demo_btn2" data-model="demo">fisher730_trimaran</a></li>
+			<li><a href="/?model=fisher731_trimaran" class="demo_btn2" data-model="demo">fisher731_trimaran</a></li>
 		</ul>
 	</div>
 	<!-- Templates -->
