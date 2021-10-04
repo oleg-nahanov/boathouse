@@ -77,6 +77,19 @@ layout: default
 		</ul>
 		<hr>
 		<ul class="privacy clearfix" style="flex-wrap: wrap; margin: 10px 0 20px 0;">
+			<li><a href="/?model=travelmax460_trimaran" class="demo_btn2" data-model="demo">travelmax460_trimaran</a></li>
+			<li><a href="/?model=travelmax530_trimaran" class="demo_btn2" data-model="demo">travelmax530_trimaran</a></li>
+			<li><a href="/?model=travelmax590_trimaran" class="demo_btn2" data-model="demo">travelmax590_trimaran</a></li>
+			<li><a href="/?model=travelmax591_trimaran" class="demo_btn2" data-model="demo">travelmax591_trimaran</a></li>
+			<li><a href="/?model=travelmax660_trimaran" class="demo_btn2" data-model="demo">travelmax660_trimaran</a></li>
+			<li><a href="/?model=travelmax661_trimaran" class="demo_btn2" data-model="demo">travelmax661_trimaran</a></li>
+			<li><a href="/?model=travelmax730_trimaran" class="demo_btn2" data-model="demo">travelmax730_trimaran</a></li>
+			<li><a href="/?model=travelmax790_trimaran" class="demo_btn2" data-model="demo">travelmax790_trimaran</a></li>
+			<li><a href="/?model=travelmax791_trimaran" class="demo_btn2" data-model="demo">travelmax791_trimaran</a></li>
+			<li><a href="/?model=travelmax860_trimaran" class="demo_btn2" data-model="demo">travelmax860_trimaran</a></li>
+		</ul>
+		<hr>
+		<ul class="privacy clearfix" style="flex-wrap: wrap; margin: 10px 0 20px 0;">
 			<li><a href="/?model=sport370_trimaran" class="demo_btn2" data-model="demo">sport370_trimaran</a></li>
 			<li><a href="/?model=sport435_trimaran" class="demo_btn2" data-model="demo">sport435_trimaran</a></li>
 			<li><a href="/?model=sport500_trimaran" class="demo_btn2" data-model="demo">sport500_trimaran</a></li>
